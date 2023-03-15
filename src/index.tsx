@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {splitMessage} from "./01/01";
+
+const message = 'Hello my friend!'
+console.log(splitMessage(message))
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
